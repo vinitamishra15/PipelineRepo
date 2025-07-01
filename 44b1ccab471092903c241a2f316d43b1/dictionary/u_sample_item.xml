@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e5a5b33c342221074e9becdd401315e" label="Sample Item" max_length="40" name="u_sample_item" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" value="new"/>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="In progress" value="in_progress"/>
+            </choice>
+        </element>
+    </element>
+</database>
