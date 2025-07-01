@@ -7,5 +7,6 @@
                 <element inactive_on_update="false" label="In progress" value="in_progress"/>
             </choice>
         </element>
+        <element label="Enable" max_length="6" name="u_enable" type="boolean"/>
     </element>
 </database>
