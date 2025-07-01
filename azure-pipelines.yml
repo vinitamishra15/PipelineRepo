@@ -5,11 +5,11 @@
 
 resources:
  repositories:
-   - repository: TriggerRepo
+   - repository: PipelineRepo
      type: github
      endpoint: GitHubConn
-     name: triggerRepo
-     ref: refs/heads/main
+     name: pipelineRepo
+     ref: refs/heads/pipeline_branch
      trigger:
       branches:
         include:
